@@ -1,0 +1,30 @@
+.item {
+ 
+  display: flex;
+  justify-content: space-between;
+  padding: 27px 34px;
+  align-items: end;
+  border: 1px solid;
+  border-bottom: none;
+
+  .item:first-of-type {
+    color: red;
+    font-style: italic;
+  }
+  .name-product {
+    margin: 0 40px;
+    color: rgb(201, 199, 199);
+    font-size: 18px;
+    width: 200px;
+  }
+
+  .price-product {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  span {
+    font-size: 8px;
+  }
+}

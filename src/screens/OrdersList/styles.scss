@@ -1,0 +1,75 @@
+.header-order {
+  background-color: #80808080;
+  text-align: center;
+  padding: 24px 10px;
+
+  .title {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+  }
+}
+
+.option {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 34px;
+  align-items: center;
+  border: 1px solid;
+  height: 90px;
+
+  .button {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border: none;
+  }
+}
+
+.sub-total {
+  background-color: #80808080;
+  text-align: center;
+  padding: 26px 34px 41px 34px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+  color: black;
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+  }
+  .send {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.total {
+  background-color: black;
+  text-align: center;
+  padding: 14px 0;
+  height: 60px;
+  color: white;
+  display: flex;
+
+  .price-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 34px;
+    width: 100%;
+    align-items: center;
+    p {
+      padding: 4px 0;
+      font-weight: 600;
+      font-size: 16px;
+      span {
+        font-size: 10px;
+      }
+    }
+  }
+}

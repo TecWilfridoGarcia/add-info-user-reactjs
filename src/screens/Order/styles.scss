@@ -1,0 +1,45 @@
+.wrapper-order {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+
+  .wrapper-orders {
+    margin: 0 20px;
+  }
+
+  .wrapper-form {
+    border: 2px solid gray;
+    width: 60%;
+    height: fit-content;
+
+    .header-form {
+      padding: 30px;
+      border-bottom: 3px solid black;
+      .title {
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper-order {
+    display: block;
+
+    .wrapper-form {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+@media screen and (max-width: 878px) {
+  .wrapper-form {
+    max-height: none;
+    .wrapper-orders {
+      margin: 0;
+    }
+  }
+}
